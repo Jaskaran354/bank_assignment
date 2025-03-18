@@ -35,10 +35,10 @@ my_account = Account()
 Here's an example of how the end product usage could look:
 ```python
 >>> account = Account()
->>> account.deposit(200)
+>>> account.deposit(1000)
 >>> account.get_balance()
 200.0
->>> account.withdraw(10)
+>>> account.withdraw(800)
 >>> account.get_balance()
 190.0
 ```
